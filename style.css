@@ -107,12 +107,12 @@ img {
   
 }
 .container:hover {
-    filter: grayscale(1);
+    filter: grayscale(0);
     border-style: none;
     border-radius: 100%;
-    transition: background-size 0.3s ease;
+    transition:  0.3s ease-in-out;
     filter: grayscale(1);
-    transition: background-size 0.3s ease; 
+    transition: 0.3s ease-in-out; 
 
     }
     h2{
