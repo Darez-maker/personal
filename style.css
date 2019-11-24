@@ -16,9 +16,10 @@ body {
 
 .sidebar {
   background: white ;
-  flex: 1 1 20%;
+  flex: 1 1 auto; 
   min-width: 300px;
-  padding: 3rem; 
+  block-size: 200px;
+  padding: 2rem; 
 }
 
 .logo {
@@ -74,9 +75,9 @@ span {
 }
 .socials{
     display: block;
-    position: absolute;
+    position: inherit ;
     bottom: 0;
-    left: 0;
+    right: 0;
 transform: (-53%, -50%);
 
 }
@@ -103,19 +104,31 @@ img {
     border-style: none;
     border-radius: 100%;
     filter: grayscale(0%);
-    background-color: transparent;
-  
+    background-color: gray;
+    position: relative;
+   flex: auto;
 }
-.container:hover {
-    filter: grayscale(0);
+img:hover {
+    filter: grayscale(5);
     border-style: none;
     border-radius: 100%;
     transition:  0.3s ease-in-out;
-    filter: grayscale(1);
+    filter: grayscale(5);
     transition: 0.3s ease-in-out; 
-
+ ;
     }
     h2{
         color: blanchedalmond;
+        position: relative;
+        bottom: 0;
+        right: 0;
     }
-    
+
+    .mom{
+        bottom: 0;
+        right: 0;
+    }
+
+    h1 {
+        color: blanchedalmond;
+    }

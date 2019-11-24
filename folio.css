@@ -116,7 +116,7 @@ span {
 }
 
 .portfolio-item.one {
-  background: url("//unsplash.it/300/350");
+  background: url("//picsum.photos/300/350");
   background-size: cover;
   background-position: top;
   background-color: #353535;
@@ -145,7 +145,7 @@ span {
 }
 
 .portfolio-item.two {
-  background: url("//unsplash.it/800/600");
+  background: url("//picsum.photos/800/600");
   background-size: cover;
   background-position: top;
   background-color: #353535;
@@ -174,7 +174,7 @@ span {
 }
 
 .portfolio-item.three {
-  background: url("//unsplash.it/400/420");
+  background: url("//picsum.photos/400/420");
   background-size: cover;
   background-position: top;
   background-color: #353535;
@@ -203,7 +203,7 @@ span {
 }
 
 .portfolio-item.four {
-  background: url("//unsplash.it/100/100");
+  background: url("//picsum.photos/100/100");
   background-size: cover;
   background-position: center;
   background-color: #353535;
@@ -232,7 +232,7 @@ span {
 }
 
 .portfolio-item.five {
-  background: url("//unsplash.it/600/800");
+  background: url("//picsum.photos/600/800");
   background-size: cover;
   background-position: right;
   background-color: #353535;
@@ -261,7 +261,7 @@ span {
 }
 
 .portfolio-item.six {
-  background: url("//unsplash.it/900/800");
+  background: url("//picsum.photos/900/800");
   background-size: cover;
   background-position: center;
   background-color: #353535;
