@@ -17,10 +17,11 @@ body {
 .sidebar {
   background: white ;
   flex: 1 1 auto; 
-  min-width: 300px;
-  block-size: 200px;
+  min-width: 200px;
+ min-block-size: 200px; 
   padding: 2rem; 
   text-shadow: 1px 1px 2px black;
+  flex: 1 1 auto;
 }
 
 .logo {
