@@ -53,6 +53,10 @@ span {
   color: red;
   transition: all 400ms ease-in-out;
 }
+nav-item.active:hover {
+  color: red;
+  transition: all 400ms ease-in-out;
+}
 
 @media (min-width: 1500px) {
   .nav-item {
@@ -62,11 +66,11 @@ span {
 }
 
 .nav-item:active {
-  color: black;
+  color: white;
 }
 
 .active {
-  color: black;
+  color: white;
 }
 
 .main-content {
